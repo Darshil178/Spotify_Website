@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>HTML5 Signup Form with validation Example</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css"
+    />
+    <link rel="stylesheet" href="signup.css" />
+  </head>
+  <body>
+    <div id="signupdiv">
+      <h2>Sign UP</h2>
+      <form id="signupform">
+        <p>
+          <input
+            type="text"
+            id="username"
+            name="username"
+            placeholder="Username"
+            required
+          /><i class="validation"><span></span><span></span></i>
+        </p>
+        <p>
+          <input
+            type="email"
+            id="email"
+            name="email"
+            placeholder="Email Address"
+            required
+          /><i class="validation"><span></span><span></span></i>
+        </p>
+        <p>
+          <input type="submit" id="signup" value="Signup" />
+        </p>
+      </form>
+      <div id="createaccount">
+        <p>already have account? <a href="login.html">login</a></p>
+        <p></p>
+      </div>
+    </div>
+  </body>
+</html>
